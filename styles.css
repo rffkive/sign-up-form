@@ -1,7 +1,4 @@
-
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
-    font-weight: 700;
-    font-size: 14px;
+@font-face {
+    font-family: 'Norse';
+    src: url('./assets/Norse-Bold.otf') format('opentype');
 }
