@@ -2,3 +2,36 @@
     font-family: 'Norse';
     src: url('./assets/Norse-Bold.otf') format('opentype');
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    border: 2px dotted royalblue;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left-page {
+    background-image: url('./assets/1355277.png');
+    flex: 1;
+}
+
+.overlay-box {
+    display: flex;
+}
+
+.overlay-image img{
+    width: 20px;
+    height: 20px;
+}   
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
