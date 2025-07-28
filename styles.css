@@ -77,7 +77,6 @@ body {
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
 }
 
 .form-title {
@@ -125,3 +124,33 @@ body {
     padding: 5px;
 }
 
+.create-button {
+    padding: 10px 50px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #596D48;
+    color: #F9FAFB;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.account-access {
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.account-access strong {
+    color: #596D48;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.account-access strong:hover {
+    color: #4A5D3A;
+}
