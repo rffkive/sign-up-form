@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px dotted royalblue;
 }
 
 body {
@@ -61,6 +60,18 @@ body {
     background-color: #F9FAFB;
 }
 
+.main-description {
+    font-size: 14px;
+    display: flex;
+    gap: 7vh;
+    padding: 10vh;
+    padding-right: 20vh;
+    line-height: 1.5;
+    flex-direction: column;
+    padding-left: 5vh;
+}
+
 .form-card {
     background-color: white;
 }
+
