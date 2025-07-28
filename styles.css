@@ -57,7 +57,7 @@ body {
     flex-direction: column;
     flex: 2;
     justify-content: center;
-    background-color: #F9FAFB;
+    background-color: hwb(294 81% 7%);
 }
 
 .main-description {
@@ -124,12 +124,22 @@ body {
     padding: 5px;
 }
 
+.label > input:focus {
+    outline: none;
+    border: 2px solid #096850;
+    box-shadow: 0 0 0 3px rgba(226, 197, 31, 0.2);
+}
+
+.label > input[type="password"]:invalid {
+    border: 2px solid #491342;
+}
+
 .create-button {
     padding: 10px 50px;
     margin: 20px;
     font-size: 16px;
     font-weight: 600;
-    background-color: #596D48;
+    background-color: #921a1a;
     color: #F9FAFB;
     border-radius: 6px;
     cursor: pointer;
@@ -145,12 +155,12 @@ body {
 }
 
 .account-access strong {
-    color: #596D48;
+    color: #921a1a;
     cursor: pointer;
     text-decoration: underline;
     transition: color 0.2s ease;
 }
 
 .account-access strong:hover {
-    color: #4A5D3A;
+    color: #491342;
 }
