@@ -67,7 +67,7 @@ body {
     line-height: 1.5;
     flex-direction: column;
     padding-left: 5vh;
-    padding-top: 0px;
+    padding-top: 20px;
     padding-right: 20vh;
     padding-bottom: 5vh;
 }
@@ -156,6 +156,7 @@ body {
     font-size: 16px;
     margin-left: 20px;
     font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
 }
 
 .account-access strong {
